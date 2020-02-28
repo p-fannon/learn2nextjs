@@ -16,6 +16,10 @@ const Home = () => (
         Get started by editing <code>pages/index.js</code>
       </p>
 
+      <p>
+        <a href="/bonus">Check out this sweet bonus page.</a>
+      </p>
+
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
           <h3>Documentation &rarr;</h3>
@@ -125,6 +129,13 @@ const Home = () => (
       .description {
         line-height: 1.5;
         font-size: 1.5rem;
+      }
+
+      .bonus {
+        text-align: center;
+        font-size: 1rem;
+        color: blue;
+        background-color: orange;
       }
 
       code {
